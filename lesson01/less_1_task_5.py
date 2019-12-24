@@ -5,10 +5,10 @@
 
 # Запрашиваю у пользователя  
 # порядковый номер буквы в алавите
-print('Введите букву')
-number_letter = int(input('1-я буква: '))
+print('Введите номер буквы')
+user_letter = int(input('Номер буквы:\n'))
 
 # Вычисляю порядковый номер буквы в алфавите
 # и вывожу на экран 
-number_letter = number_letter + ord('a') - 1
-print(chr(number_letter))
+number_letter = user_letter + ord('a') - 1
+print(f'Порядковый номер {user_letter} соответствует букве: {chr(number_letter)}')

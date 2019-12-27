@@ -46,4 +46,4 @@ while user_number > 0:
     user_number //= 10
 
 # Аналогично запрашиваю у пользователя натуральное число
-print(int(inverse_string))
+print(inverse_number)
